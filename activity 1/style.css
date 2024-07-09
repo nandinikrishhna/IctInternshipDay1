@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color:rgb(25, 10, 109);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(106, 103, 116);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color:rgb(255, 255, 255);
+	padding: 20px;
+
+}
+image, Contact, Skills, title, Education {
+	margin-bottom: 10px;
+}
+h2 {
+	background-color:rgb(106, 103, 116);
+}
+img {
+    border-radius: 50%;
+  } 

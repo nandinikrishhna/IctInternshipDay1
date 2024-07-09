@@ -1,0 +1,15 @@
+p
+{color:blue;}
+a
+{color:brown; 
+text-decoration: none;}
+ol
+{color:red;}
+ul
+{color:aquamarine;}
+table, th, td {
+    border: 2px solid black;
+}
+th{
+    color: tomato;
+}
